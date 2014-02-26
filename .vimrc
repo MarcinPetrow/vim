@@ -42,6 +42,9 @@
  "Keyboard mappings
  map <F12> :so %<CR>
 
+ "GitGutter default on
+ let g:gitgutter_enabled = 1 
+ 
  " If there are uninstalled bundles found on startup,
  " this will conveniently prompt you to install them.
  NeoBundleCheck
