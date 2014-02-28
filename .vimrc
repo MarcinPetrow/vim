@@ -39,6 +39,11 @@
  set cursorline
  hi CursorLine cterm=NONE ctermbg=darkgray
 
+ " Text formatting
+ set shiftwidth=2
+ set tabstop=2
+ set expandtab
+
  "Keyboard mappings
  map <F12> :so %<CR>
 
